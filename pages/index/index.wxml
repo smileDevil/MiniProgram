@@ -1,7 +1,4 @@
-<!--index.wxml-->
-<view class="container">
-
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view>
+  <w-tab-control titles="{{['衣服','裤子','鞋子']}}" bind:titleclick="gettitleClickTitle" />
+ 
 </view>
